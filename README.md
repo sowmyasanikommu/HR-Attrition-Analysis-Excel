@@ -1,10 +1,10 @@
 📊 HR Analytics Dashboard — Employee Attrition Analysis
 
-> **Identifying why employees leave — and what the business can do about it.**
+> Identifying why employees leave — and what the business can do about it.
 
 ![Dashboard Preview](screenshots/dashboard_preview.png)
 
-
+---
 
 📌 Project Overview
 
@@ -19,7 +19,7 @@ The final deliverable is a **fully interactive Excel dashboard** that allows sta
 🎯 Business Questions Answered
 
 | # | Business Question | Answer |
-
+|---|---|---|
 | 1 | What is the overall attrition rate? | **16.12%** — above the industry avg of 13.2% |
 | 2 | Which department loses the most employees? | **Sales** — 20.63% attrition rate |
 | 3 | Which job role is most at risk? | **Sales Representatives** — 39.76% attrition |
@@ -56,10 +56,10 @@ With leavers averaging 4 years younger than stayers, the organization is losing 
 
 ---
 
-## 🗂️ Project Structure
+🗂️ Project Structure
 
 ```
-HR-Attrition-Analysis/
+IBM-HR-Attrition-Dashboard/
 │
 ├── 📊 dashboard/
 │     └── IBM_HR_Attrition_Dashboard.xlsx     ← Interactive Excel Dashboard
@@ -73,14 +73,18 @@ HR-Attrition-Analysis/
 ├── 📄 report/
 │     └── Project_Report.pdf                  ← Full analytical report
 │
+├── 📝 interview_prep/
+│     └── Interview_Questions_Answers.md      ← Q&A for interviews
+│
 └── README.md                                 ← You are here
+```
 
 ---
 
 🛠️ Tools & Techniques Used
 
 | Tool / Technique | Purpose |
-
+|---|---|
 | Microsoft Excel | Primary analysis and dashboard tool |
 | Pivot Tables | Data aggregation and multi-dimensional analysis |
 | Pivot Charts | Visual representation of insights |
@@ -88,6 +92,8 @@ HR-Attrition-Analysis/
 | KPI Cards | Executive-level headline metrics |
 | Conditional Formatting | Visual risk indicators |
 | Data Cleaning | Duplicate removal, data type standardization, null handling |
+
+---
 
 📊 Dashboard Features
 
@@ -102,7 +108,7 @@ HR-Attrition-Analysis/
 📈 Dataset
 
 | Property | Detail |
-
+|---|---|
 | Source | IBM HR Analytics Employee Attrition & Performance (Public Dataset) |
 | Records | 1,470 employees |
 | Features | 35 columns including Age, Department, JobRole, MonthlyIncome, OverTime, Attrition |
@@ -112,9 +118,9 @@ HR-Attrition-Analysis/
 
 🚀 How to Use the Dashboard
 
-1. Download dashboard/IBM_HR_Attrition_Dashboard.xlsx`
-2. Open in **Microsoft Excel 2016 or later** (slicers require desktop Excel)
-3. Use the **slicers on the left panel** to filter by Department, Gender, Education Field, or Job Role
+1. Download `dashboard/IBM_HR_Attrition_Dashboard.xlsx`
+2. Open in "Microsoft Excel 2016 or later" (slicers require desktop Excel)
+3. Use the "slicers on the left panel" to filter by Department, Gender, Education Field, or Job Role
 4. All charts and KPI cards update dynamically with each selection
 5. Reset all filters by clicking the funnel icon (↑ top-left of each slicer)
 
@@ -125,6 +131,8 @@ HR-Attrition-Analysis/
 This project was completed as part of a self-directed **Data Analytics Portfolio** initiative, simulating a real business analytics assignment for an HR leadership team.
 
 The goal was not simply to demonstrate Excel proficiency, but to develop the full analyst workflow:
-**Business question → Data exploration → Insight generation → Visual communication → Recommendations**
+Business question → Data exploration → Insight generation → Visual communication → Recommendations
+
+---
 
 *Dataset: IBM HR Employee Attrition (Public) | Tool: Microsoft Excel | Year: 2026*
