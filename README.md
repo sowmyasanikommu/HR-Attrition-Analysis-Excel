@@ -134,5 +134,11 @@ The goal was not simply to demonstrate Excel proficiency, but to develop the ful
 Business question → Data exploration → Insight generation → Visual communication → Recommendations
 
 ---
+## Author
+
+**Sowmya Sanikommu**
+| Aspiring Data Analyst | Excel | PostgreSQL | Business Intelligence | Power BI
+
+---
 
 *Dataset: IBM HR Employee Attrition (Public) | Tool: Microsoft Excel | Year: 2026*
